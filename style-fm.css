@@ -597,9 +597,12 @@ color: white;
 }
 
 
+
 h3
 {
 visibility: hidden;
+font-size: 25px;
+margin-top: 50px;
 }
 
 
@@ -615,6 +618,13 @@ color: white;
 .actu
 {
 visibility: hidden;
+
+}
+
+.line
+{
+ font-size: 10px;
+ color: black;
 }
 
 
@@ -629,16 +639,6 @@ border-radius: 30px;
 padding-top: 15px;
 }
 
-
-.resultat-2
-{
-visibility: visible !important;
-margin-top: -900px;
-padding: 20px;
-}
-
-
-
 .resultat-1
 {
 visibility: visible;
@@ -647,57 +647,82 @@ width: 400px;
 height:700px;
 background-color:#706b64;
 border-radius: 30px;
-padding-top: 15px;
+padding-top: 50px;
 }
 
 
 
-
-.even
+.resultat-2
 {
- 
+visibility: visible !important;
+margin-top: -900px;
+padding: 20px;
+color: yellow;
 }
 
-.ev-1
+
+.resultat-3
 {
- 
+visibility: visible !important;
+color: yellow;
+margin-top: -650px;
 }
 
-.even-2
+.resultat-4
 {
+visibility: visible !important;
+color: yellow;
 
 }
 
-.even-3
+.resultat-5
 {
-
+visibility: visible !important;
+color: yellow;
 }
+
+.resultat-6
+{
+visibility: visible !important;
+color: yellow;
+}
+
+.resultat-7
+{
+visibility: visible !important;
+color: yellow;
+}
+
+
+
 
 .titre_1
 {
 visibility: hidden;
-margin-top:-600px;
 }
 
 .titre_2
 {
 visibility: hidden;
-margin-top:-400px;
 }
 
 .titre_3
 {
 visibility: hidden;
-margin-top:-200px;
 }
 
-
-
-
-.resultat-3
+.titre_4
 {
-visibility: visible;
+visibility: hidden;
 }
+
+.titre_5
+{
+visibility: hidden;
+}
+
+
+
 
 
 #btn-2
@@ -943,6 +968,7 @@ transform: translateY(10px);
 footer
 {
 display: flex;
+justify-content: space-around;
 background-color: #2f2c7e;
 height: 350px;
 margin-top:1000px;
@@ -956,7 +982,6 @@ border-top: double white 50px;
 .pied-page
 {
 padding-top: 100px;
-
 }
 
 .icone
@@ -1001,22 +1026,19 @@ color: yellow;
 }
 
 
-
-
-.photos
-{
-color: tomato;
-font-style: italic;
-}
-
-
 .ville-de-Nice
 {
 border-radius: 20%;
 border-right: yellow double 15px;
 margin-left: -70px;
+margin-top:15px;
 }
 
+
+.Mon-initial
+{
+margin-top:15px;
+}
 
 .info-1
 {

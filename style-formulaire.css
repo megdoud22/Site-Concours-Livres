@@ -1,0 +1,438 @@
+ 
+
+
+ .pelier-1
+ {
+  border-radius:20px;
+  margin-left: 20px;
+  margin-top:2px;
+  border-bottom: 15px black double;
+  border-top: 15px black double;
+  height:80px;
+  position: relative;
+  animation-name: crocher;
+  animation-duration: 8s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  }
+
+
+  @keyframes crocher
+  {
+  10% {transform: rotate(360deg);}  
+  }
+
+ body
+ {
+  transition: width 2s;
+  background:grey;
+  width:53%;
+  margin-top: -20px;
+ }
+
+
+ body:hover
+ {
+  width: 80%;
+ }
+  
+
+.block-formulaire
+ {
+  border-radius: 15px;
+  background-color:teal ;
+  padding:20px;
+  border-top: 40px white ridge ;
+  border-bottom: 40px white ridge ;
+  border-left: 4px white groove ;
+  border-right: 4px white groove ;
+  margin-left: 20px; 
+  width: 35%;
+  transition: width 2s;
+  margin-top:-10px;
+  }
+
+ .block-formulaire:hover 
+ {
+  width: 80%;
+ }
+
+
+h1
+ {
+  color: yellow ;
+  font-size: 1em;
+  font-style: italic;
+  font-family:arial;
+  margin-left:20px;
+  text-align: center;
+  background-color: tomato;
+  border-radius: 15PX;
+  border-left: 15px white double;
+  border-bottom: 1px white solid;
+  border-top: 1px white solid;
+  width: 100px;
+  height: 30px;
+  padding:8px;
+  position: relative;
+  animation-name: titre;
+  animation-duration: 8s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  }
+
+  @keyframes titre
+  {
+  0%   {background-color:dodgerblue; left:0px; top:0px;}
+  25%  {background-color:maroon; left:1000px; top:0px;}
+  25%  {width: 50%;} 
+  25%  {font-size: 2em;}
+  25%  {transform: rotate(360deg);}  
+  50%  {background-color:#338EFF; left:0px; top:60px;}
+  50%  {color:white; left:0px; top:60px;}
+  50%  {background-image: url(Images/bordure-menu.jpg);}
+  50%  {transform: scale(1, 0.5);}
+  55%  {box-shadow: 20px 20px 20px yellow;}
+  57%  {color:red;}
+  60%  {box-shadow: 30px 30px 35px  blueviolet;}
+  55%  {transform: scale(1.2, 0.5);}
+  60%  {transform: skew(20deg, 10deg);}
+  65%  {transform: skew(10deg, 20deg);}
+  65%  {background-image: url(Images/puce.png);}
+  80%  {transform: rotate(-360deg);}
+  90%  {background-image: url(Images/background-formulaire.jpg);}
+  95%  {box-shadow: 35px 35px 35px  white;}
+  100% {border-left: 15px black double;} 
+  100% {border-right: 15px black double;}
+  }
+
+
+.fieldset 
+{
+ border: 5px brown groove;
+ border-radius: 25px;
+}
+
+
+.legend 
+{
+ color: yellow;
+ font-size:20px;
+ text-align: left;
+ box-shadow: 16px 16px 16px gold;
+ border-radius: 20px;
+ border-left: 15px white double;
+ background-color:tomato ;
+ height: 2px;
+ padding-bottom:20px;
+ position: relative;
+ animation-name: coordonnées;
+ animation-duration: 15s;
+ animation-delay: 2s;
+ animation-iteration-count: infinite;
+ animation-timing-function: ease;
+}
+
+@keyframes coordonnées 
+{  
+   0%  {background-color:red; left:0px; top:0px;}
+  25%  {background-color:dodgerblue; left:850px; top:0px;}
+  50%  {background-color:teal; left:0px; top:0px;}
+  50%  {transform: scale(0.5, 0.5); }
+  55%  {transform: rotateZ(360deg);}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+
+
+p
+ {
+ color: black;
+ font-weight: bold;
+ font-size:18px;
+ }
+
+input[type=text], select 
+ {
+  width: 130px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px dashed brown;
+  border-radius: 15px;
+  box-sizing: border-box;
+  outline: none;
+  background-color:lightgrey;
+  cursor: pointer;
+  transition: width 0.4s ease-in-out;
+  color: blue;
+ }
+
+ input[type=text]:focus
+  {
+   width: 80%;
+  }
+
+input[type=date], select 
+ {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px dashed brown;
+  border-radius: 15px;
+  box-sizing: border-box;
+  outline: none;
+  background-color:lightgrey;
+  cursor: pointer;
+  color: blue;
+ }
+
+ input[type=email], select 
+ {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px dashed brown;
+  border-radius: 15px;
+  box-sizing: border-box;
+  outline: none;
+  background-color:lightgrey;
+  cursor: pointer;
+  color: blue;
+ }
+
+ input[type=tel], select  
+ {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px dashed brown;
+  border-radius: 15px;
+  box-sizing: border-box;
+  outline: none;
+  background-color:lightgrey;
+  cursor: pointer;
+  color: blue;
+ }
+ 
+ 
+input[type=text]:focus 
+{
+  background-color: lightblue;
+}
+input[type=email]:focus 
+{
+  background-color: lightblue;
+}
+
+input[type=date]:focus 
+{
+  background-color: lightblue;
+}
+
+input[type=tel]:focus 
+{
+  background-color: lightblue;
+}
+
+
+
+select:focus 
+{
+  background-color: lightblue;
+}
+
+
+textarea:focus 
+{
+  background-color:lightblue ;
+}
+
+
+
+
+
+
+.fieldset# 
+{
+ border: 5px brown groove;
+ border-radius: 25px;
+}
+
+.legendF 
+{
+ color: yellow;
+ font-size:14px;
+ text-align: left;
+ border-radius: 20px;
+ border-left: 15px white double;
+ background-color:tomato;
+ box-shadow: 16px 16px 16px gold;
+ position: relative;
+ animation-name: message;
+ animation-duration: 15s;
+ animation-delay: 2s;
+ animation-iteration-count: infinite;
+ animation-timing-function: ease;
+}
+
+
+@keyframes message 
+{  
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:dodgerblue; left:850px; top:0px;}
+  50%  {background-color:teal; left:850px; top:280px;}
+  50%  {transform: rotate(360deg);}
+  50%  {transform: scale(0.5, 0.5); }
+  50%  {transform: rotateZ(90deg);}
+  55%  {transform: rotateZ(360deg);}
+  60%  {background-color:#8D33FF; left:0px; top:300px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+
+.textarea
+{
+ background-color:lightgrey;
+ width: 90%;
+ height: 50%;
+ border-radius: 30px;
+ border: 5px white double;
+ margin-left:35px;
+ margin-right:px;
+ color: blue;
+ padding:10px;
+ cursor: pointer;
+}
+
+
+input[type=submit]
+{
+ border:3px white ridge;
+ border-left: 15px black double;
+ border-right: 15px black double;
+ border-radius:25px;
+ background-color:#8D33FF ;
+ font-size:12px;
+ font-weight: bold;
+ font-style: italic;
+ text-align: center;
+ color: white;
+ padding:5px;
+ width:100px;
+ height:60px;
+ margin-left: 50px;
+ transition: 3s;
+ position: relative;
+ cursor: pointer;
+}
+
+
+
+input[type=submit]:hover
+
+{
+ background-color: brown;
+ border:5px white ridge;
+ border-top: 15px black double;
+ border-bottom: 15px black double;
+ color: yellow;
+ box-shadow: 20px 20px 35px;
+ transform: rotateZ(360deg);
+}
+
+
+
+
+ .button
+{
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color:tomato;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 17px #999;
+  border-bottom: 1px white solid;
+  margin-left:50px;
+  transition: 6s;
+}
+
+.button:hover 
+{
+  background-color: black;
+  color: red;
+}
+
+.button:active 
+{
+  background-color:magenta;
+  color: black;
+  box-shadow: 0 1px #666;
+  transform: translateY(10px);
+}
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+.tooltip 
+ {
+  position: relative;
+  display: inline-block;
+  transition: 3s;
+ }
+
+ 
+.tooltip .tooltiptext 
+{
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+}
+
+.tooltip .tooltiptext::after 
+ {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+ }
+
+.tooltip:hover .tooltiptext
+ {
+  visibility: visible;
+  transform: rotateZ(360deg);
+ }
+
+
+
+
+
+
+
+ 
+
+
+
