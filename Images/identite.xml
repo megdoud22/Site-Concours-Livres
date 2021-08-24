@@ -1,0 +1,34 @@
+
+
+  <identite>
+
+    <nom>
+
+    </nom>
+
+
+    <prenom>
+
+    </prenom>
+   
+   
+    <age>
+	
+	</age>
+     
+	<sexe>
+	 
+	</sexe>
+	
+	
+     <adresse>
+	       <numero>
+		   </numero>
+		   <voie>
+		   </voie>
+		   
+		   
+	 </adresse>
+
+
+    </identite>
