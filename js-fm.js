@@ -1,4 +1,28 @@
 
+/*MOUSE EVENTS */
+
+const mousemove = document.querySelector(".mousemove");
+console.log(mousemove);
+window.addEventListener("mousemove", (e) => {
+
+    mousemove.style.left = e.pageX + "px";
+    mousemove.style.top = e.pageY + "px";
+
+});
+
+
+window.addEventListener("mousedown", () => {
+mousemove.style.transform ="scale(2) translate(-25%, -25%)";
+});
+
+
+window.addEventListener("mouseup", () => {
+mousemove.style.transform ="scale(1) translate(-50%, -50%)";
+mousemove.style.border = "2px solid teal";
+});
+
+
+
 
 
 
@@ -33,15 +57,24 @@ response.classList.add("show-response");
 
 const concoursPresentation = document.querySelector(".presentation");
 console.log(concoursPresentation);
+
+
 const btn2 = document.querySelector("#btn-2");
 console.log(btn2);
-const affichage = document.querySelector("h3");
 
+const affichage = document.querySelector("h3");
+console.log(affichage);
+
+const paragraphe = document.getElementById("article_fm");
+console.log(paragraphe);
 
 btn2.addEventListener('click', () => {
 affichage.classList.add("resultat");
+paragraphe.classList.add("resultat-2");
+
     
 });
+
 
 
 
@@ -50,9 +83,14 @@ affichage.classList.add("resultat");
 
 const concoursActualites = document.querySelector(".Actualites");
 console.log(concoursActualites);
+
 const btn3 = document.querySelector("#btn-3");
 console.log(btn3);
+
 const concoursResultat = document.querySelector(".actu");
+console.log(concoursResultat);
+
+
 
 
 btn3.addEventListener('click', () => {
@@ -61,27 +99,6 @@ concoursResultat.classList.add("resultat-1");
 });
 
 
-/*MOUSE EVENTS */
-
-const mousemove = document.querySelector(".mousemove");
-console.log(mousemove);
-window.addEventListener("mousemove", (e) => {
-
-    mousemove.style.left = e.pageX + "px";
-    mousemove.style.top = e.pageY + "px";
-
-});
-
-
-window.addEventListener("mousedown", () => {
-mousemove.style.transform ="scale(2) translate(-25%, -25%)";
-});
-
-
-window.addEventListener("mouseup", () => {
-mousemove.style.transform ="scale(1) translate(-50%, -50%)";
-mousemove.style.border = "2px solid teal";
-});
 
 
 

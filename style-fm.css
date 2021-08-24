@@ -44,6 +44,21 @@ animation-direction: alternate;
 100% {left:0px; top:0px;}
 }
 
+.Mon-initial::first-letter
+{
+border-radius: 50%;
+border-left: 15px white double;
+border-right: 10px gray groove;
+color: white;
+font-size: 60px;
+font-style: italic;
+margin-left: 30px;
+padding-left:20px;
+padding-right: 15px;
+background-color: tomato;
+}
+
+
 
 
 .img-3
@@ -66,8 +81,6 @@ border-top: 10px gray double;
 
 
 
-
-
 .bordure-attachement
 {
 margin-left:100px;
@@ -76,32 +89,14 @@ border-radius:25px;
 
 
 
-.Mon-initial::first-letter
-{
-border-radius: 50%;
-border-left: 15px white double;
-border-right: 10px gray groove;
-color: white;
-font-size: 60px;
-font-style: italic;
-margin-left: 30px;
-padding-left:20px;
-padding-right: 15px;
-background-color: tomato;
-}
-
-
-
-
-
 .img2
 {
 border-radius: 30%;
-border-bottom: yellow 10px double;
-border-top: yellow 10px double;
-border-left:  35px dashed tomato;
-border-right: 35px dashed tomato;
-box-shadow:30px 30px 40px tomato;
+border-bottom: yellow 5px double;
+border-top: yellow 5px double;
+border-left: 100px double tomato;
+border-right: 100px double tomato;
+box-shadow:15px 15px 20px tomato;
 margin-top: -5px;
 margin-left:80px;
 background-image: url(Images/Background-1.jfif);
@@ -169,26 +164,26 @@ body
 background-image: url(Images/unnamed.jpg);
 animation-name: body;
 animation-duration: 15s;  
-animation-delay: 4s;
+animation-delay: 2s;
 animation-timing-function: ease;
 transition: 25s;
-animation-iteration-count: infinite;
+animation-iteration-count: 1;
 animation-direction: alternate;
 }
 
 
 @keyframes body
 {
- 10%{background-image: url(Images/vintage-background-avec-de-vieux-livres-retour-au-concept-d-école.jpg);}
- 20%{background-image: url(Images/bg-livre.jpg);}
- 30%{background-image: url(Images/bg-livre-1.jpg);}
- 40%{background-image: url(Images/abstract-colours-vector-362849.jpg);}
- 50%{background-image: url(Images/Vintage-background-with-old-books.jpg);}
- 60%{background-image: url(Images/stock-photo-vintage-background-with.jpg);}
- 70%{background-image: url(Images/unnamed.jpg);}
- 80%{background-image: url(Images/book-flying-.jpg);}
- 90%{background-image: url(Images/images-book.jpg);}
- 100%{background-image: url(Images/bg-img.jpg);}
+10%{background-image: url(Images/vintage-background-avec-de-vieux-livres-retour-au-concept-d-école.jpg);}
+20%{background-image: url(Images/bg-livre.jpg);}
+30%{background-image: url(Images/bg-livre-1.jpg);}
+40%{background-image: url(Images/abstract-colours-vector-362849.jpg);}
+50%{background-image: url(Images/Vintage-background-with-old-books.jpg);}
+60%{background-image: url(Images/stock-photo-vintage-background-with.jpg);}
+70%{background-image: url(Images/unnamed.jpg);}
+80%{background-image: url(Images/book-flying-.jpg);}
+90%{background-image: url(Images/images-book.jpg);}
+100%{background-image: url(Images/bg-img.jpg);}
 }
 
 
@@ -199,8 +194,10 @@ animation-direction: alternate;
 .slide-1
 {
 margin-top: 170px;
-background-image: url(Images/biblio.jpg);
+background-image: url(Images/bibliotheque-1.jpg);
+width: 1800px;
 height:170px;
+margin-left:50px;
 }
 
 
@@ -261,11 +258,13 @@ to {right:1300px;}
 .box
 {
 margin-top: -50px;
+margin-left: 80px;
 background: black;
 padding: 10px;
 border-radius: 30%;
 border-left: 50px white double;
 border-right: 50px white double ;
+width: 1500px;
 }
 
 
@@ -275,9 +274,10 @@ h4
 visibility: hidden; 
 width: 240px;
 opacity:0;
-transition: 0,4s;
+transition: 10s;
 transform: translateX(-600px);
 } 
+
 
 
 .question-clicked 
@@ -332,9 +332,6 @@ color: white;
 
 
 
-
-
-
 /*partie bouton click*/
 
 #btn-1
@@ -380,10 +377,11 @@ transform: translateY(10px);
 
 .menu
 {
- margin-top:100px;
+ margin-top:300px;
  border-left: 15px double white;
  border-right: 25px double white;
  border-radius: 35px;
+ width: 500px;
 }
 
 
@@ -447,113 +445,111 @@ display: block;
 }
 
 
+
 /*Partie Caroussel*/
   
-  .caroussel
-  {
-   float:right; 
-   margin-top: 500px; 
-  }
-  
-  .slider
-  {
-   width: 1900px;
-   overflow: hidden;
-  }
+.slider
+{
+width: 1900px;
+overflow: hidden;
+margin-top: 1000px;
+}
+
+
+.slides
+{
+animation: glisse 30s infinite;
+width: calc(500px * 6);
+}
+
           
- .slides
-  {
-   animation: glisse 30s infinite;
-   width: calc(500px * 6);
-  }
-          
-  .slide
-      {
-       float: left;
-      }
+.slide
+{
+float: left;
+}
          
-       @keyframes glisse 
-          {
-            0% 
-            {
-              transform: translateX(0);
-            }
+@keyframes glisse 
+{
+0% 
+{
+  transform: translateX(0);
+}
 
-            5% 
-            {
-              transform: translateX(0);
-            }
+5% 
+{
+  transform: translateX(0);
+}
 
-            15% 
-            {
-              transform: translateX(-500px);
-            }
+15% 
+{
+  transform: translateX(-500px);
+}
 
-            20% 
-            {
-              transform: translateX(-500px);
-            }
+20% 
+{
+  transform: translateX(-500px);
+}
 
-            30% 
-            {
-              transform: translateX(-1000px);
-            }
+30% 
+{
+  transform: translateX(-1000px);
+}
 
-            35% 
-            {
-              transform: translateX(-1000px);
-            }
+35% 
+{
+  transform: translateX(-1000px);
+}
 
-            45% 
-            {
-              transform: translateX(-1500px);
-            }
+45% 
+{
+  transform: translateX(-1500px);
+}
 
-            50% 
-            {
-              transform: translateX(-1500px);
-            }
+50% 
+{
+  transform: translateX(-1500px);
+}
 
-            60% 
-            {
-              transform: translateX(-2000px);
-            }
+60% 
+{
+  transform: translateX(-2000px);
+}
 
-            65% 
-            {
-              transform: translateX(-2000px);
-            }
+65% 
+{
+  transform: translateX(-2000px);
+}
 
-            75% 
-            {
-              transform: translateX(-2500px);
-            }
+75% 
+{
+  transform: translateX(-2500px);
+}
 
-            80% 
-            {
-              transform: translateX(-2500px);
-            }
+80% 
+{
+  transform: translateX(-2500px);
+}
 
-            90% 
-            {
-              transform: translateX(-3000px);
-            }
+90% 
+{
+  transform: translateX(-3000px);
+}
 
-            95% 
-            {
-              transform: translateX(-3000px);
-            }
+95% 
+{
+  transform: translateX(-3000px);
+}
 
-            100% 
-            {
-              transform: translateX(0);
-            }
+100% 
+{
+  transform: translateX(0);
+}
 
-            100% 
-            {
-              transform: translateX(0);
-            }
-          }
+100% 
+{
+  transform: translateX(0);
+}
+}
 
 
 
@@ -573,6 +569,15 @@ margin-top: 1200px;
 {
 text-align: center;
 border-radius: 30px;
+}
+
+
+
+
+
+.article-numero
+{
+ color: yellow;
 }
 
 
@@ -601,6 +606,16 @@ h3
 visibility: hidden;
 }
 
+
+
+#article_fm
+{
+text-align: justify;
+width: 350px;
+visibility: hidden;
+color: white;
+}
+
 .actu
 {
 visibility: hidden;
@@ -612,11 +627,12 @@ visibility: hidden;
 visibility: visible;
 color: yellow;
 width: 400px;
-height:700px;
+height:900px;
 background-color:#706b64;
 border-radius: 30px;
 padding-top: 15px;
 }
+
 
 
 .resultat-1
@@ -628,6 +644,13 @@ height:700px;
 background-color:#706b64;
 border-radius: 30px;
 padding-top: 15px;
+}
+
+.resultat-2
+{
+visibility: visible;
+margin-top: -900px;
+padding: 20px;
 }
 
 
@@ -874,9 +897,8 @@ transform: translateY(10px);
 
 footer
 {
-background-color: #2f2c7e;
 display: flex;
-justify-content: space-around;
+background-color: #2f2c7e;
 height: 350px;
 margin-top:1000px;
 color: white;
@@ -884,9 +906,12 @@ border-radius: 20%;
 border-top: double white 50px;
 }
 
+
+
 .pied-page
 {
 padding-top: 100px;
+
 }
 
 .icone
