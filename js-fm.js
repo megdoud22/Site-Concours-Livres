@@ -90,11 +90,25 @@ console.log(btn3);
 const concoursResultat = document.querySelector(".actu");
 console.log(concoursResultat);
 
+const evenement = document.querySelector(".even");
+console.log(evenement);
 
+const evenement1 = document.querySelector(".titre_1");
+console.log(evenement1);
+
+const evenement2 = document.querySelector(".titre_2");
+console.log(evenement2);
+
+const evenement3 = document.querySelector(".titre_3");
+console.log(evenement3);
 
 
 btn3.addEventListener('click', () => {
 concoursResultat.classList.add("resultat-1");
+evenement1.classList.add("resultat-3");
+evenement1.classList.add("resultat-3");
+evenement1.classList.add("resultat-3");
+
     
 });
 

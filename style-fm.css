@@ -571,10 +571,6 @@ text-align: center;
 border-radius: 30px;
 }
 
-
-
-
-
 .article-numero
 {
  color: yellow;
@@ -634,6 +630,14 @@ padding-top: 15px;
 }
 
 
+.resultat-2
+{
+visibility: visible !important;
+margin-top: -900px;
+padding: 20px;
+}
+
+
 
 .resultat-1
 {
@@ -646,13 +650,54 @@ border-radius: 30px;
 padding-top: 15px;
 }
 
-.resultat-2
+
+
+
+.even
 {
-visibility: visible;
-margin-top: -900px;
-padding: 20px;
+ 
 }
 
+.ev-1
+{
+ 
+}
+
+.even-2
+{
+
+}
+
+.even-3
+{
+
+}
+
+.titre_1
+{
+visibility: hidden;
+margin-top:-600px;
+}
+
+.titre_2
+{
+visibility: hidden;
+margin-top:-400px;
+}
+
+.titre_3
+{
+visibility: hidden;
+margin-top:-200px;
+}
+
+
+
+
+.resultat-3
+{
+visibility: visible;
+}
 
 
 #btn-2
