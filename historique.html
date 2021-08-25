@@ -14,7 +14,7 @@
 <header>
 
 		<div class="resume">   
-       <h1>Voici le résumé du règlement intérieur du concours de parution d'ouvrages :</h1>
+       <h1 class="titre_titre">Voici le résumé du règlement intérieur du concours de parution d'ouvrages :</h1>
         <h2 class="titre-resume">Les modalités de participation au Prix sont les suivantes :</h2>
 
        <article class="resume1">
@@ -43,36 +43,77 @@
 
        </article> 
 
-        <h2> Si vous voulez le règlement en entier<a href="Message-confirmation.html">Télécharger ici en PDF</a></h2>
+        <h2> Si vous voulez le règlement en entier<a href="Images/montage_PC.pdf">Télécharger ici en PDF</a></h2>
     </div>
 
 		
 <form method="post" action="confirmation.html">
+
+
 <div class="historique">
 
 		
 	<fieldset class="fieldset-1">
       <legend class="legend-1"><p>Veuillez selectionner l'année de parution:</p></legend>
-		  <label for="pays"><span class="annee">L'année:</span></label><br/>
+		  <label for="pays"><span class="annee"> L'année:</span></label><br/>
               <select class="select-1" name="pays" id="pays">
                 <optgroup class="optgroup" label="Année">
-				           <option class="option-1" value="Année" >2021</option>
-				           <option class="option-1" value="Année"selected>2020</option>
+				           <option class="option-1" value="Année"selected >2021</option>
+				           <option class="option-1" value="Année">2020</option>
 				           <option class="option-1" value="Année">2019</option>                                
 				           <option class="option-1" value="Année">2018</option>
 				           <option class="option-1" value="Année">2017</option>
 				           <option class="option-1" value="Année">2016</option>
 				           <option class="option-1" value="Année">2015</option>
-				           <option class="option-1" value="Année">2014</option>                            
-				</optgroup>
+				           <option class="option-1" value="Année">2014</option>
+				           <option class="option-1" value="Année">2013</option>
+				           <option class="option-1" value="Année">2012</option>
+				           <option class="option-1" value="Année">2011</option>
+				           <option class="option-1" value="Année">2010</option>                            
+			        	</optgroup>
               </select>
   </fieldset>
 
 
+  <fieldset class="fieldset-1">
+     <legend class="legend-1"><p>Veuillez selectionner les différentes catégories de l'oeuvre :</p></legend>
+		  <label for="type"><span class="annee1">Le type:</span></label><br/>
+
+              <select class="select-2" name="type" id="type">
+                 <optgroup class="optgroup" label ="Meilleur roman français">
+				           <option class="option-1" value="type">Roman français</option>
+				           <option class="option-1" value="type">Roman français</option>
+				           <option class="option-1" value="type">Roman français</option>                          
+				           <option class="option-1" value="type">Roman français</option>
+				         </optgroup>
+
+				         <optgroup class="optgroup" label="Meilleur roman étranger ">
+				           <option class="option-1" value="type">Roman étranger</option>
+				           <option class="option-1" value="type">Roman étranger</option>
+				           <option class="option-1" value="type">Roman étranger</option>                          
+				           <option class="option-1" value="type">Roman étranger</option>
+				         </optgroup>
+
+				         <optgroup class="optgroup" label="Meilleur documentaire ">
+				           <option class="option-1" value="type">Documentaire</option>
+				           <option class="option-1" value="type">Documentaire</option>
+				           <option class="option-1" value="type">Documentaire</option>                          
+				           <option class="option-1" value="type">Documentaire</option>
+				         </optgroup>
+
+				         <optgroup class="optgroup" label="biographie ">
+				           <option class="option-1" value="type">Biographie</option>
+				           <option class="option-1" value="type">Biographie</option>
+				           <option class="option-1" value="type">Biographie</option>                          
+				           <option class="option-1" value="type">Biographie</option>
+				         </optgroup>
+              </select>
+  </fieldset>
+
 
   <fieldset class="fieldset-1">
      <legend class="legend-1"><p>Veuillez selectionner le nom de livre:</p></legend>
-		  <label for="pays"><span class="anne">Le nom:</span></label><br/>
+		  <label for="pays"><span class="annee2">Le nom:</span></label><br/>
               <select class="select-3" name="Nom" id="Nom">
                 <optgroup class="optgroup" label="Nom">
 				           <option class="option-1" value="nom" >La guerre des mondes invisibles</option>
@@ -82,59 +123,74 @@
 				           <option class="option-1" value="nom">La raison de croire</option>
 				           <option class="option-1" value="nom">Histoire de ancien Monde</option>
 				           <option class="option-1" value="nom">La réflexion humaine</option>
-				           <option class="option-1" value="nom">Les Aventures de tin tin</option>                                                     
+				           <option class="option-1" value="nom">Les Aventures de tin tin</option>
+				           <option class="option-1" value="nom">La raison de croire</option>
+				           <option class="option-1" value="nom">Histoire de ancien Monde</option>
+				           <option class="option-1" value="nom">La réflexion humaine</option>
+				           <option class="option-1" value="nom">Les Aventures de tin tin</option>                                                        
 	            </optgroup>
               </select>
   </fieldset>
 
 
-
-  <fieldset class="fieldset-1">
-     <legend class="legend-1"><p>Veuillez selectionner le type de l'oeuvre :</p></legend>
-		  <label for="type"><span class="annee">Le type:</span></label><br/>
-              <select class="select-2" name="type" id="type">
-                <optgroup class="optgroup" label="Type ">
-				           <option class="option-1" value="type">Sience fiction</option>
-				           <option class="option-1" value="type">Aventure</option>
-				           <option class="option-1" value="type">Histoire</option>                          
-				           <option class="option-1" value="type">Policier</option>
-				           <option class="option-1" value="type"selected>Roman</option>
-		        </optgroup>
-              </select>
-  </fieldset>
-
 </div>
- <br/>
- <br/>
- <br/>
-
- <div class="">
-    <h1>Historique des gagnants précédants</h1>
- </div>
-
- <br/>
- <br/>
- <br/>
-<div class="grid-container">
-  <div><p class="gagnant">Numéro:1:Le gagnant : Guillaume Bernardi</p></div>
-  <div>2</div>
-  <div>3</div>  
-  <div>4</div>
-  <div>5</div>
-  <div>6</div>
-  <div>7</div>
-  <div>8</div>
-</div>
-
-
-
-
 
 
 </form>
   
 
 </header>
+
+
+
+<div class="historique-1">
+    <h1 class="historique1">Historique des gagnants précédents <img class="img_gagnant" src="Images/Le-Livre-de-Poche.jpg" height="140" width="300"></h1>
+ </div>
+
+ <br/>
+ <br/>
+ <br/>
+
+
+
+<div class="grid-container">
+
+  <div class="gagnant">
+  <p class="gagnant-1">Gagnant Numéro:1:</p>
+  <img class="gagnant-2" src="Images/roman.jpg" width="" height="">
+  
+       <p class="gagnant-3">Je ne sais pas ce qui a permis à notre fratrie de conserver les liens qui nous unissaient enfants. Nous étions tous
+                            différents sans ressemblance particulièr Souvent, les familles se dispersent, s’effilochentavec le temps.  Mais, malgré 
+                            les années qui ont passé je suis resté le garçon du milieu ;Nana est toujours la fille des parents, la chouchoute 
+       	                    maniérée que l’on sacrifiait toujours durant nos jeu et Serge, mon frère, est toujours l’aîné, le meneur de notre petite troupe.
+       	                    Après Babylone, prix Renaudot 2016,la célèbre autrice marque son grand retour sur la scène romanesque avec un roman touchant sur 
+       	                    les liens familiaux.
+       	                    <br>
+       	                    <br>
+                            Éditions Flammarion, parution le 6/01/2021
+       </p>
+  </div>
+
+
+
+  <div><img src="Images/" width="" height=""><p class="gagnant">Numéro:1:Le gagnant : Guillaume Bernardi</p></div>
+  <div><img src="Images/" width="" height=""><p class="gagnant">Numéro:1:Le gagnant : Guillaume Bernardi</p></div>  
+  <div><img src="Images/" width="" height=""><p class="gagnant">Numéro:1:Le gagnant : Guillaume Bernardi</p></div>
+  <div><img src="Images/" width="" height=""><p class="gagnant">Numéro:1:Le gagnant : Guillaume Bernardi</p></div>
+  <div><img src="Images/" width="" height=""><p class="gagnant">Numéro:1:Le gagnant : Guillaume Bernardi</p></div>
+  <div><img src="Images/" width="" height=""><p class="gagnant">Numéro:1:Le gagnant : Guillaume Bernardi</p></div>
+  <div><img src="Images/" width="" height=""><p class="gagnant">Numéro:1:Le gagnant : Guillaume Bernardi</p></div>
+</div>
+
+
+
+
+
+
+
+
+
+
 
 <footer>
 

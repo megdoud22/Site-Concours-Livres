@@ -1026,19 +1026,28 @@ color: yellow;
 }
 
 
+.Mon-initial
+{
+display: inline-block;
+margin-top:-50px;
+}
+
+
+
+.Mon-initial_1
+{
+ margin-right: 150px;
+}
+
+
 .ville-de-Nice
 {
 border-radius: 20%;
 border-right: yellow double 15px;
-margin-left: -70px;
-margin-top:15px;
 }
 
 
-.Mon-initial
-{
-margin-top:15px;
-}
+
 
 .info-1
 {
@@ -1068,14 +1077,13 @@ height:700px;
 border-radius:30px;
 }
 
-h1
+.titre_titre
 {
-
 color:white;
 padding-bottom:50px;
-text-align: center;
 text-decoration: overline;
 padding-top: 40px;
+text-align: center;
 }
 
 .titre-resume
@@ -1099,7 +1107,7 @@ justify-content: space-around;
 
 .resume-1
 {
-background-color: #F1F1F1;
+background-color:#5DADE2 ;
 width:30%;
 height:330px;
 padding:20px 20px;
@@ -1109,7 +1117,7 @@ border-radius: 30px;
 
 .resume-2
 {
-background-color: #F1F1F1;
+background-color: #5DADE2 ;
 width:30%;
 height:330px;
 padding:20px 20px;
@@ -1119,7 +1127,7 @@ border-radius: 30px;
 
 .resume-3
 {
-background-color: #F1F1F1;
+background-color: #5DADE2 ;
 width:30%;
 height:330px;
 padding:20px 20px;
@@ -1162,16 +1170,23 @@ padding: 0px 10px;
 
 .annee
 {
-color:black;
+color:white;
 font-weight: bold;
-padding-left:30px;
+padding-left:50px;
 font-size:20px;
 }
 
-
-.anne
+.annee1
 {
-color:black;
+color:white;
+font-weight: bold;
+padding-left:50px;
+font-size:20px;
+}
+
+.annee2
+{
+color:white;
 font-weight: bold;
 padding-left:60px;
 font-size:20px;
@@ -1193,12 +1208,29 @@ border-radius: 50px;
 border-radius: 100%;
 }
 
+.select-2
+{
+color:yellow;
+background-color: gray;
+margin-left:100px;
+padding-left:50px;
+padding-right:50px;
+border-radius: 50px;
+}
+
+
+.select-2:active
+{
+border-radius: 100%;
+}
+
+
 
 .select-3
 {
 color:yellow;
 background-color: gray;
-margin-left: 60px;
+margin-left: 50px;
 margin-right:50px;
 padding-left:30px;
 padding-right:30px;
@@ -1211,33 +1243,7 @@ border-radius: 100%;
 }
 
 
-.select-2
-{
-color:yellow;
-background-color: gray;
-margin-left:70px;
-padding-left:50px;
-border-radius: 50px;
-}
-
-
-.select-2:active
-{
-border-radius: 100%;
-}
-
-
-
-
 .select-1:hover
-{
-background-color: brown;
-padding-left:40px;
-color: white;
-}
-
-
-.select-3:hover
 {
 background-color: brown;
 padding-left:40px;
@@ -1251,6 +1257,43 @@ padding-left:40px;
 color: white;
 }
 
+.select-3:hover
+{
+background-color: brown;
+padding-left:40px;
+color: white;
+}
+
+
+
+
+.historique-1
+{
+margin-top:500px;
+margin-left:100px;
+border-radius:30px;
+width: 500px;
+}
+
+
+
+.historique1
+{
+color: white;
+text-decoration: underline;
+}
+
+
+
+.img_gagnant
+{
+border-radius: 20px;
+padding-top:10px;
+border-left:350px;
+}
+
+
+
 
 .grid-container 
 {
@@ -1259,20 +1302,45 @@ grid-template-columns: auto auto auto auto;
 grid-gap: 10px;
 background-color: tomato;
 padding: 10px;
+margin-left: 50px;
+font-size:50px;
+
 }
 
 .grid-container > div 
 {
-background-color: rgba(255, 255, 255, 0.8);
-border: 1px solid black;
+background-color: #58D68D ;
+border: 3px solid black;
 text-align: center;
-font-size: 130px;
 }
 
 .gagnant
 {
- font-size: 10px;
+ 
 }
+
+.gagnant-1
+{
+ 
+}
+
+.gagnant-2
+{
+
+
+}
+
+.gagnant-3
+{
+font-size:16px;
+text-align:justify;
+padding: 12px;
+float: left;
+}
+
+
+
+
 
 
 
