@@ -1637,6 +1637,123 @@ color: white;
 }
 
 
+/* Grand titre */
+
+.box-1
+{
+margin-top:50px;
+padding-top: 1px;
+padding-bottom: 5px;
+background:black;
+border-radius:30%;
+border-left:50px yellow double;
+border-right:50px yellow double;
+height:175px;
+border-bottom: 5px gray solid;
+border-top: 5px gray solid;
+background-image: url(Images/fond-blocs-vo.jpg);
+}
+
+.FM-1
+{
+background:#2C3E50;
+border-radius:30%;
+border-left:40px tomato double;
+border-right:40px tomato double;
+height:107px;
+background-image: url(Images/fond-blocs-vo.jpg);
+
+
+}
+
+.FM-2
+{
+background:#B663EC;
+border-radius:30%;
+border-left: 40px brown double;
+border-right:40px brown double;
+height:90px;
+background-image: url(Images/fond-blocs-vo.jpg);
+}
+
+
+.FM-3
+{
+background-color:tomato;
+border-radius:30%;
+border-left:35px white double;
+border-right:35px white double;
+height:60px;
+}
+
+.FM-4
+{
+background-color:tomato;
+border-radius:30%;
+border-left:35px white double;
+border-right:35px white double;
+height:30px;
+}
+
+.FM-5
+{
+background:tomato;
+border-radius:30%;
+border-left: 35px white double;
+border-right: 35px white double;
+}
+
+.Bienvenue3
+{
+text-align: center;
+font-size:70px;
+}
+
+.Bienvenue4
+{
+color: red;
+font-style: italic;
+position: relative;
+animation-name: bien;
+animation-duration: 15s;  
+animation-delay: 2s;
+animation-timing-function: ease;
+transition:15s ;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes bien
+{
+from {right: 0px;}
+to {right:550px;}
+}
+
+.Bienvenue5
+{
+color: white;
+font-style: italic;
+position: relative;
+animation-name: biens;
+animation-duration: 15s;  
+animation-delay: 3s;
+animation-timing-function: ease;
+transition:15s ;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes biens
+{
+from {right: 0px;}
+to {right:400px;}
+}
+
+
+
+
+
+
 /* Page Roman.html */
 
 
@@ -1713,60 +1830,6 @@ clear: both;
 }
 
 
-/* Grand titre */
-
-.box-1
-{
-background:black;
-border-radius:30%;
-border-left:50px white double;
-border-right:50px white double;
-height:200px;
-}
-
-.FM-1
-{
-background:tomato;
-border-radius:30%;
-border-left:40px white double;
-border-right:40px white double;
-height:100px;
-}
-
-.FM-2
-{
-background:dodgerblue;
-border-radius:30%;
-border-left: 40px white double;
-border-right:40px white double;
-height:50px;
-}
-
-.FM-3
-{
-background-color:tomato;
-border-radius:30%;
-border-left:35px white double;
-border-right:35px white double;
-height:60px;
-}
-
-.FM-4
-{
-background-color:tomato;
-border-radius:30%;
-border-left:35px white double;
-border-right:35px white double;
-height:30px;
-}
-
-.FM-5
-{
-background:tomato;
-border-radius:30%;
-border-left: 35px white double;
-border-right: 35px white double;
-}
 
 
 
@@ -1906,4 +1969,7 @@ text-decoration: none;
 font-weight: bold;
 }
 
+
+
+/* Page Admin_gestion.html */
 
