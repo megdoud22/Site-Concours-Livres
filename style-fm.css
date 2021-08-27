@@ -1320,7 +1320,7 @@ background-color: #2196F3;
 padding: 10px;
 }
 
-.grid-item > div 
+.grid-item  
 {
 background-color: rgba(255, 255, 255, 0.8);
 border: 3px solid rgba(0, 0, 0, 0.8);
@@ -1330,21 +1330,13 @@ text-align: center;
 }
 
 
-.gagnant
-{
- 
-}
+
 
 .gagnant-1
 {
 color: white;
 }
 
-.gagnant-2
-{
-
-
-}
 
 .gagnant-3
 {
@@ -1513,7 +1505,24 @@ margin-top:50px;
 .lien
 {
 margin-left:240px;
-margin-top: -150px;
+margin-top: 10px;
+}
+
+.liens-pass
+{
+margin-left:80px;
+margin-top: -120px;
+background-color:tomato;
+padding: 20px;
+border-radius:30%;
+border-left: 35px white double;
+border-bottom: 6px inset black;
+border-top: 6px inset black;
+border-right:35px white double; 
+color: white;
+text-align: center;
+text-decoration: none;
+font-weight: bold;
 }
 
 
@@ -1670,37 +1679,15 @@ background-image: url(Images/fond-blocs-vo.jpg);
 }
 
 
-.FM-3
-{
-background-color:tomato;
-border-radius:30%;
-border-left:35px white double;
-border-right:35px white double;
-height:60px;
-}
 
-.FM-4
-{
-background-color:tomato;
-border-radius:30%;
-border-left:35px white double;
-border-right:35px white double;
-height:30px;
-}
-
-.FM-5
-{
-background:tomato;
-border-radius:30%;
-border-left: 35px white double;
-border-right: 35px white double;
-}
 
 .Bienvenue3
 {
 text-align: center;
 font-size:70px;
 }
+
+
 
 .Bienvenue4
 {
@@ -1722,6 +1709,7 @@ from {right: 0px;}
 to {right:550px;}
 }
 
+
 .Bienvenue5
 {
 color: white;
@@ -1737,6 +1725,287 @@ animation-direction: alternate;
 }
 
 @keyframes biens
+{
+from {right: 0px;}
+to {right:400px;}
+}
+
+.Bienvenue6
+{
+color: white;
+font-style: italic;
+position: relative;
+animation-name: biens1;
+animation-duration: 15s;  
+animation-delay: 3s;
+animation-timing-function: ease;
+transition:15s ;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes biens1
+{
+from {right: 0px;}
+to {right:400px;}
+}
+
+.Bienvenue7
+{
+color: white;
+font-style: italic;
+position: relative;
+animation-name: biens2;
+animation-duration: 15s;  
+animation-delay: 3s;
+animation-timing-function: ease;
+transition:15s ;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes biens2
+{
+from {right: 0px;}
+to {right:400px;}
+}
+
+.Bienvenue8
+{
+color: white;
+font-style: italic;
+position: relative;
+animation-name: biens3;
+animation-duration: 15s;  
+animation-delay: 3s;
+animation-timing-function: ease;
+transition:15s ;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes biens3
+{
+from {right: 0px;}
+to {right:400px;}
+}
+
+
+.Bienvenue9
+{
+color: white;
+font-style: italic;
+position: relative;
+animation-name: biens4;
+animation-duration: 15s;  
+animation-delay: 3s;
+animation-timing-function: ease;
+transition:15s ;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes biens4
+{
+from {right: 0px;}
+to {right:400px;}
+}
+
+.Bienvenue10
+{
+color: white;
+font-style: italic;
+position: relative;
+animation-name: biens5;
+animation-duration: 15s;  
+animation-delay: 3s;
+animation-timing-function: ease;
+transition:15s ;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes biens5
+{
+from {right: 0px;}
+to {right:400px;}
+}
+
+.Bienvenue11
+{
+color: white;
+font-style: italic;
+position: relative;
+animation-name: biens6;
+animation-duration: 15s;  
+animation-delay: 3s;
+animation-timing-function: ease;
+transition:15s ;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes biens6
+{
+from {right: 0px;}
+to {right:400px;}
+}
+
+.Bienvenue12
+{
+color: white;
+font-style: italic;
+position: relative;
+animation-name: biens7;
+animation-duration: 15s;  
+animation-delay: 3s;
+animation-timing-function: ease;
+transition:15s ;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes biens7
+{
+from {right: 0px;}
+to {right:400px;}
+}
+
+.Bienvenue13
+{
+color: white;
+font-style: italic;
+position: relative;
+animation-name: biens8;
+animation-duration: 15s;  
+animation-delay: 3s;
+animation-timing-function: ease;
+transition:15s ;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes biens8
+{
+from {right: 0px;}
+to {right:400px;}
+}
+
+.Bienvenue14
+{
+color: white;
+font-style: italic;
+position: relative;
+animation-name: biens9;
+animation-duration: 15s;  
+animation-delay: 3s;
+animation-timing-function: ease;
+transition:15s ;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes biens9
+{
+from {right: 0px;}
+to {right:400px;}
+}
+
+.Bienvenue15
+{
+color: white;
+font-style: italic;
+position: relative;
+animation-name: biens10;
+animation-duration: 15s;  
+animation-delay: 3s;
+animation-timing-function: ease;
+transition:15s ;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes biens10
+{
+from {right: 0px;}
+to {right:400px;}
+}
+
+.Bienvenue16
+{
+color: white;
+font-style: italic;
+position: relative;
+animation-name: biens11;
+animation-duration: 15s;  
+animation-delay: 3s;
+animation-timing-function: ease;
+transition:15s ;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes biens11
+{
+from {right: 0px;}
+to {right:400px;}
+}
+
+.Bienvenue17
+{
+color: white;
+font-style: italic;
+position: relative;
+animation-name: biens12;
+animation-duration: 15s;  
+animation-delay: 3s;
+animation-timing-function: ease;
+transition:15s ;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes biens12
+{
+from {right: 0px;}
+to {right:400px;}
+}
+
+.Bienvenue18
+{
+color: white;
+font-style: italic;
+position: relative;
+animation-name: biens13;
+animation-duration: 15s;  
+animation-delay: 3s;
+animation-timing-function: ease;
+transition:15s ;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes biens13
+{
+from {right: 0px;}
+to {right:400px;}
+}
+
+.Bienvenue19
+{
+color: white;
+font-style: italic;
+position: relative;
+animation-name: biens14;
+animation-duration: 15s;  
+animation-delay: 3s;
+animation-timing-function: ease;
+transition:15s ;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes biens14
 {
 from {right: 0px;}
 to {right:400px;}
@@ -2078,4 +2347,21 @@ border: 1px solid rgba(0, 0, 0, 0.8);
 padding: 20px;
 font-size: 30px;
 text-align:center;
+}
+
+
+/* Page de message de confirmation */
+
+.confirmation1
+{
+color: white;
+margin-left: 50px;
+}
+
+
+.confirmation2
+{
+color: white;
+display: inline-block;
+margin-left: 50px;
 }
