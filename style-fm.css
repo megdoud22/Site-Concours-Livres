@@ -162,7 +162,7 @@ margin-left:-5px;
 body
 {
 background-image: url(Images/unnamed.jpg);
-animation-name: body ;
+
 animation-duration: 15s;  
 animation-delay: 2s;
 animation-timing-function: ease;
