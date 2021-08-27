@@ -1312,25 +1312,23 @@ border-left:350px;
 
 
 
-
 .grid-container 
 {
 display: grid;
-grid-template-columns: auto auto auto auto;
-grid-gap: 10px;
-background-color: tomato;
+grid-template-columns: auto auto auto;
+background-color: #2196F3;
 padding: 10px;
-margin-left: 50px;
-font-size: 25px;
 }
 
-.grid-container > div 
+.grid-item > div 
 {
-background-color: #58D68D ;
-border: 3px solid black;
+background-color: rgba(255, 255, 255, 0.8);
+border: 3px solid rgba(0, 0, 0, 0.8);
+padding: 20px;
+font-size: 30px;
 text-align: center;
-
 }
+
 
 .gagnant
 {
