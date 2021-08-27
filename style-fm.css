@@ -162,7 +162,7 @@ margin-left:-5px;
 body
 {
 background-image: url(Images/unnamed.jpg);
-animation-name: ;
+animation-name: body ;
 animation-duration: 15s;  
 animation-delay: 2s;
 animation-timing-function: ease;
@@ -174,14 +174,9 @@ animation-direction: alternate;
 
 @keyframes body
 {
-10%{background-image: url(Images/vintage-background-avec-de-vieux-livres-retour-au-concept-d-école.jpg);}
-20%{background-image: url(Images/bg-livre.jpg);}
-30%{background-image: url(Images/bg-livre-1.jpg);}
-40%{background-image: url(Images/abstract-colours-vector-362849.jpg);}
-50%{background-image: url(Images/Vintage-background-with-old-books.jpg);}
-60%{background-image: url(Images/stock-photo-vintage-background-with.jpg);}
-70%{background-image: url(Images/unnamed.jpg);}
-80%{background-image: url(Images/book-flying-.jpg);}
+10%{background-image: url(Images/stock-photo-vintage-background-with.jpg);}
+30%{background-image: url(Images/unnamed.jpg);}
+60%{background-image: url(Images/book-flying-.jpg);}
 90%{background-image: url(Images/images-book.jpg);}
 100%{background-image: url(Images/bg-img.jpg);}
 }
