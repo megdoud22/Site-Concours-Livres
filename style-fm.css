@@ -1978,12 +1978,52 @@ font-weight: bold;
 {
 color: white;
 margin-top: 200px;
+margin-left:30px;
+padding-left:20px;
+border-radius: 30px;
+border-left: double brown 50px;
 text-decoration: underline;
 text-decoration: overline;
 border-bottom: double white 10px;
 border-top: double white 10px ;
 background-color:lightcoral;
+text-align: center;
 }
+
+
+.validation1
+{
+color: white;
+margin-top: 200px;
+margin-left:30px;
+padding-left:20px;
+border-radius: 30px;
+border-left: double brown 50px;
+text-decoration: underline;
+text-decoration: overline;
+border-bottom: double white 10px;
+border-top: double white 10px ;
+background-color:lightcoral;
+text-align: center;
+}
+
+.validation2
+{
+color: white;
+margin-top: 200px;
+margin-left:30px;
+padding-left:20px;
+border-radius: 30px;
+border-left: double brown 50px;
+text-decoration: underline;
+text-decoration: overline;
+border-bottom: double white 10px;
+border-top: double white 10px ;
+background-color:lightcoral;
+text-align: center;
+}
+
+
 
 .juree
 {
@@ -1991,17 +2031,58 @@ background-color:lightcoral;
 }
 
 
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
+.juree1
+{
+ display: inline-block;
 }
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+
+
+.grid-container 
+{
+display: grid;
+grid-template-columns: auto auto;
+background-color: #2196F3;
+padding: 10px;
+}
+
+.grid-item 
+{
+background-color: rgba(255, 255, 255, 0.8);
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 20px;
+font-size: 30px;
+text-align:center;
+}
+
+.grid-container1
+{
+display: grid;
+grid-template-columns: auto auto auto;
+background-color: #2196F3;
+padding: 10px;
+}
+.grid-item1 
+{
+background-color: rgba(255, 255, 255, 0.8);
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 20px;
+font-size: 30px;
+text-align:center;
+}
+
+
+.grid-container2
+{
+display: grid;
+grid-template-columns: auto auto auto auto auto;
+background-color: #2196F3;
+padding: 10px;
+}
+.grid-item2 
+{
+background-color: rgba(255, 255, 255, 0.8);
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 20px;
+font-size: 30px;
+text-align:center;
 }
