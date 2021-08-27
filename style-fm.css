@@ -1691,16 +1691,17 @@ font-size:70px;
 
 .Bienvenue4
 {
-color: red;
+color:red;
 font-style: italic;
 position: relative;
 animation-name: bien;
-animation-duration: 15s;  
-animation-delay: 2s;
+animation-duration: 5s;  
+animation-delay: 1s;
 animation-timing-function: ease;
-transition:15s ;
+transition:0,3s;
 animation-iteration-count: infinite;
-animation-direction: alternate;
+animation-direction: alternate-reverse;
+
 }
 
 @keyframes bien
@@ -1712,22 +1713,23 @@ to {right:550px;}
 
 .Bienvenue5
 {
-color: white;
+color: blue;
 font-style: italic;
 position: relative;
 animation-name: biens;
-animation-duration: 15s;  
-animation-delay: 3s;
+animation-duration: 5s;  
+animation-delay: 2s;
 animation-timing-function: ease;
-transition:15s ;
+transition:0,3s;
 animation-iteration-count: infinite;
-animation-direction: alternate;
+animation-direction: alternate-reverse;
+
 }
 
 @keyframes biens
 {
 from {right: 0px;}
-to {right:400px;}
+to {right:540px;}
 }
 
 .Bienvenue6
@@ -1736,38 +1738,40 @@ color: white;
 font-style: italic;
 position: relative;
 animation-name: biens1;
-animation-duration: 15s;  
+animation-duration: 5s; 
 animation-delay: 3s;
 animation-timing-function: ease;
-transition:15s ;
+transition:0,3s;
 animation-iteration-count: infinite;
-animation-direction: alternate;
+animation-direction: alternate-reverse;
+
 }
 
 @keyframes biens1
 {
 from {right: 0px;}
-to {right:400px;}
+to {right:530px;}
 }
 
 .Bienvenue7
 {
-color: white;
+color: gray;
 font-style: italic;
 position: relative;
 animation-name: biens2;
-animation-duration: 15s;  
-animation-delay: 3s;
+animation-duration: 5s; 
+animation-delay: 4s;
 animation-timing-function: ease;
-transition:15s ;
+transition:0,3s;
 animation-iteration-count: infinite;
-animation-direction: alternate;
+animation-direction: alternate-reverse;
+
 }
 
 @keyframes biens2
 {
 from {right: 0px;}
-to {right:400px;}
+to {right:520px;}
 }
 
 .Bienvenue8
@@ -1776,99 +1780,104 @@ color: white;
 font-style: italic;
 position: relative;
 animation-name: biens3;
-animation-duration: 15s;  
-animation-delay: 3s;
+animation-duration: 5s;  
+animation-delay: 5s;
 animation-timing-function: ease;
-transition:15s ;
+transition:0,3s;
 animation-iteration-count: infinite;
-animation-direction: alternate;
+animation-direction: alternate-reverse;
+
 }
 
 @keyframes biens3
 {
 from {right: 0px;}
-to {right:400px;}
+to {right:510px;}
 }
 
 
 .Bienvenue9
 {
-color: white;
+color: black;
 font-style: italic;
 position: relative;
 animation-name: biens4;
-animation-duration: 15s;  
-animation-delay: 3s;
+animation-duration: 5s;  
+animation-delay: 6s;
 animation-timing-function: ease;
-transition:15s ;
+transition:0,3s;
 animation-iteration-count: infinite;
-animation-direction: alternate;
+animation-direction: alternate-reverse;
+
 }
 
 @keyframes biens4
 {
 from {right: 0px;}
-to {right:400px;}
+to {right:500px;}
 }
 
 .Bienvenue10
 {
-color: white;
+color: red;
 font-style: italic;
 position: relative;
 animation-name: biens5;
-animation-duration: 15s;  
-animation-delay: 3s;
+animation-duration: 5s;  
+animation-delay: 7s;
 animation-timing-function: ease;
-transition:15s ;
+transition:0,3s;
 animation-iteration-count: infinite;
-animation-direction: alternate;
+animation-direction: alternate-reverse;
+
 }
 
 @keyframes biens5
 {
 from {right: 0px;}
-to {right:400px;}
+to {right:490px;}
 }
 
 .Bienvenue11
 {
-color: white;
+color: blue;
 font-style: italic;
 position: relative;
 animation-name: biens6;
-animation-duration: 15s;  
-animation-delay: 3s;
+animation-duration: 5s;  
+animation-delay: 8s;
 animation-timing-function: ease;
-transition:15s ;
+transition:0,3s;
 animation-iteration-count: infinite;
-animation-direction: alternate;
+animation-direction: alternate-reverse;
+
 }
 
 @keyframes biens6
 {
 from {right: 0px;}
-to {right:400px;}
+to {right:480px;}
 }
 
 .Bienvenue12
 {
-color: white;
+color:yellow;
 font-style: italic;
 position: relative;
 animation-name: biens7;
-animation-duration: 15s;  
-animation-delay: 3s;
+animation-duration: 5s;  
+animation-delay: 9s;
 animation-timing-function: ease;
-transition:15s ;
+transition:0,3s;
 animation-iteration-count: infinite;
-animation-direction: alternate;
+animation-direction: alternate-reverse;
+
 }
 
 @keyframes biens7
 {
 from {right: 0px;}
-to {right:400px;}
+to {right:470px;}
 }
 
 .Bienvenue13
@@ -1877,132 +1886,139 @@ color: white;
 font-style: italic;
 position: relative;
 animation-name: biens8;
-animation-duration: 15s;  
-animation-delay: 3s;
+animation-duration: 5s;  
+animation-delay: 10s;
 animation-timing-function: ease;
-transition:15s ;
+transition:0,3s;
 animation-iteration-count: infinite;
-animation-direction: alternate;
+animation-direction: alternate-reverse;
+
 }
 
 @keyframes biens8
 {
 from {right: 0px;}
-to {right:400px;}
+to {right:460px;}
 }
 
 .Bienvenue14
 {
-color: white;
+color: wheat;
 font-style: italic;
 position: relative;
 animation-name: biens9;
-animation-duration: 15s;  
-animation-delay: 3s;
+animation-duration: 5s;  
+animation-delay: 11s;
 animation-timing-function: ease;
-transition:15s ;
+transition:0,3s;
 animation-iteration-count: infinite;
-animation-direction: alternate;
+animation-direction: alternate-reverse;
+
 }
 
 @keyframes biens9
 {
 from {right: 0px;}
-to {right:400px;}
+to {right:450px;}
 }
 
 .Bienvenue15
 {
-color: white;
+color: green;
 font-style: italic;
 position: relative;
 animation-name: biens10;
-animation-duration: 15s;  
-animation-delay: 3s;
+animation-duration: 5s;  
+animation-delay: 12s;
 animation-timing-function: ease;
-transition:15s ;
+transition:0,3s;
 animation-iteration-count: infinite;
-animation-direction: alternate;
+animation-direction: alternate-reverse;
+
 }
 
 @keyframes biens10
 {
 from {right: 0px;}
-to {right:400px;}
+to {right:440px;}
 }
 
 .Bienvenue16
 {
-color: white;
+color:red;
 font-style: italic;
 position: relative;
 animation-name: biens11;
-animation-duration: 15s;  
-animation-delay: 3s;
+animation-duration: 5s;  
+animation-delay:13s;
 animation-timing-function: ease;
-transition:15s ;
+transition:0,3s;
 animation-iteration-count: infinite;
-animation-direction: alternate;
+animation-direction: alternate-reverse;
+
 }
 
 @keyframes biens11
 {
 from {right: 0px;}
-to {right:400px;}
+to {right:430px;}
 }
 
 .Bienvenue17
 {
-color: white;
+color:#FF5733;
 font-style: italic;
 position: relative;
 animation-name: biens12;
-animation-duration: 15s;  
-animation-delay: 3s;
+animation-duration: 5s;  
+animation-delay:14s;
 animation-timing-function: ease;
-transition:15s ;
+transition:0,3s;
 animation-iteration-count: infinite;
-animation-direction: alternate;
+animation-direction: alternate-reverse;
+
 }
 
 @keyframes biens12
 {
 from {right: 0px;}
-to {right:400px;}
+to {right:420px;}
 }
 
 .Bienvenue18
 {
-color: white;
+color:#CE33FF;
 font-style: italic;
 position: relative;
 animation-name: biens13;
-animation-duration: 15s;  
-animation-delay: 3s;
+animation-duration: 5s; 
+animation-delay: 15s;
 animation-timing-function: ease;
-transition:15s ;
+transition:0,3s;
 animation-iteration-count: infinite;
-animation-direction: alternate;
+animation-direction: alternate-reverse;
+
 }
 
 @keyframes biens13
 {
 from {right: 0px;}
-to {right:400px;}
+to {right:410px;}
 }
 
 .Bienvenue19
 {
-color: white;
+color:#FF7133;
 font-style: italic;
 position: relative;
 animation-name: biens14;
-animation-duration: 15s;  
-animation-delay: 3s;
+animation-duration: 5s; 
+animation-delay: 16s;
 animation-timing-function: ease;
-transition:15s ;
+transition:0,3s;
 animation-iteration-count: infinite;
-animation-direction: alternate;
+animation-direction: alternate-reverse;
+
 }
 
 @keyframes biens14
