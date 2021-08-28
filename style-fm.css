@@ -1665,7 +1665,7 @@ border-right:50px yellow double;
 height:175px;
 border-bottom: 5px gray solid;
 border-top: 5px gray solid;
-background-image: url(Images/fond-blocs-vo.jpg);
+background-image: url(Images/Vintage-background-with-old-books.jpg);
 }
 
 .FM-1
@@ -1687,7 +1687,7 @@ border-radius:30%;
 border-left: 40px brown double;
 border-right:40px brown double;
 height:90px;
-background-image: url(Images/bordure-menu.jpg);
+background-image: url(Images/images-book.jpg);
 }
 
 
@@ -1708,7 +1708,8 @@ animation-name: bien;
 animation-duration: 5s;  
 animation-delay: 1s;
 animation-timing-function: ease;
-animation-iteration-count: infinite;
+animation-iteration-count: 3;
+animation-direction: alternate;
 }
 
 @keyframes bien
@@ -1727,10 +1728,10 @@ animation-name: biens;
 animation-duration: 5s;  
 animation-delay: 2s;
 animation-timing-function: ease;
-animation-iteration-count: infinite;
-
-
+animation-iteration-count: 3;
+animation-direction: alternate;
 }
+
 
 @keyframes biens
 {
@@ -1747,10 +1748,10 @@ animation-name: biens1;
 animation-duration: 5s; 
 animation-delay: 3s;
 animation-timing-function: ease;
-animation-iteration-count: infinite;
-
-
+animation-iteration-count: 3;
+animation-direction: alternate;
 }
+
 
 @keyframes biens1
 {
@@ -1760,18 +1761,17 @@ to {right:560px;}
 
 .Bienvenue7
 {
-color: gray;
+color: red;
 font-style: italic;
 position: relative;
 animation-name: biens2;
 animation-duration: 5s; 
 animation-delay: 4s;
 animation-timing-function: ease;
-
-animation-iteration-count: infinite;
-
-
+animation-iteration-count: 3;
+animation-direction: alternate;
 }
+
 
 @keyframes biens2
 {
@@ -1781,18 +1781,17 @@ to {right:570px;}
 
 .Bienvenue8
 {
-color: white;
+color: blue;
 font-style: italic;
 position: relative;
 animation-name: biens3;
 animation-duration: 5s;  
 animation-delay: 5s;
 animation-timing-function: ease;
-
-animation-iteration-count: infinite;
-
-
+animation-iteration-count: 3;
+animation-direction: alternate;
 }
+
 
 @keyframes biens3
 {
@@ -1809,12 +1808,11 @@ position: relative;
 animation-name: biens4;
 animation-duration: 5s;  
 animation-delay: 6s;
-animation-timing-function:linear;
-transition:0,3s;
-animation-iteration-count: infinite;
+animation-timing-function:ease;
+animation-iteration-count: 3;
 animation-direction: alternate;
-
 }
+
 
 @keyframes biens4
 {
@@ -1831,16 +1829,14 @@ animation-name: biens5;
 animation-duration: 5s;  
 animation-delay: 7s;
 animation-timing-function: ease;
-transition:0,3s;
-animation-iteration-count: infinite;
+animation-iteration-count: 3;
 animation-direction: alternate;
-
 }
 
 @keyframes biens5
 {
 from {right: 0px;}
-to {right:490px;}
+to {right:510px;}
 }
 
 .Bienvenue11
@@ -1852,100 +1848,90 @@ animation-name: biens6;
 animation-duration: 5s;  
 animation-delay: 8s;
 animation-timing-function: ease;
-transition:0,3s;
-animation-iteration-count: infinite;
+animation-iteration-count: 3;
 animation-direction: alternate;
-
 }
 
 @keyframes biens6
 {
 from {right: 0px;}
-to {right:480px;}
+to {right:500px;}
 }
 
 .Bienvenue12
 {
-color:yellow;
+color:white;
 font-style: italic;
 position: relative;
 animation-name: biens7;
 animation-duration: 5s;  
 animation-delay: 9s;
 animation-timing-function: ease;
-transition:0,3s;
-animation-iteration-count: infinite;
+animation-iteration-count: 3;
 animation-direction: alternate;
-
 }
 
 @keyframes biens7
 {
 from {right: 0px;}
-to {right:470px;}
+to {right:510px;}
 }
 
 .Bienvenue13
 {
-color: white;
+color: red;
 font-style: italic;
 position: relative;
 animation-name: biens8;
 animation-duration: 5s;  
 animation-delay: 10s;
 animation-timing-function: ease;
-transition:0,3s;
-animation-iteration-count: infinite;
+animation-iteration-count: 3;
 animation-direction: alternate;
-
 }
 
 @keyframes biens8
 {
 from {right: 0px;}
-to {right:460px;}
+to {right:520px;}
 }
 
 .Bienvenue14
 {
-color: wheat;
+color: blue;
 font-style: italic;
 position: relative;
 animation-name: biens9;
 animation-duration: 5s;  
 animation-delay: 11s;
 animation-timing-function: ease;
-transition:0,3s;
-animation-iteration-count: infinite;
+animation-iteration-count: 3;
 animation-direction: alternate;
-
 }
 
 @keyframes biens9
 {
 from {right: 0px;}
-to {right:450px;}
+to {right:530px;}
 }
 
 .Bienvenue15
 {
-color: green;
+color: white;
 font-style: italic;
 position: relative;
 animation-name: biens10;
 animation-duration: 5s;  
 animation-delay: 12s;
 animation-timing-function: ease;
-transition:0,3s;
-animation-iteration-count: infinite;
+animation-iteration-count: 3;
 animation-direction: alternate;
-
 }
 
 @keyframes biens10
 {
 from {right: 0px;}
-to {right:440px;}
+to {right:540px;}
 }
 
 .Bienvenue16
@@ -1957,8 +1943,7 @@ animation-name: biens11;
 animation-duration: 5s;  
 animation-delay:13s;
 animation-timing-function: ease;
-transition:0,3s;
-animation-iteration-count: infinite;
+animation-iteration-count: 3;
 animation-direction: alternate;
 
 }
@@ -1966,41 +1951,38 @@ animation-direction: alternate;
 @keyframes biens11
 {
 from {right: 0px;}
-to {right:430px;}
+to {right:550px;}
 }
 
 .Bienvenue17
 {
-color:#FF5733;
+color:blue;
 font-style: italic;
 position: relative;
 animation-name: biens12;
 animation-duration: 5s;  
 animation-delay:14s;
 animation-timing-function: ease;
-transition:0,3s;
-animation-iteration-count: infinite;
+animation-iteration-count: 3;
 animation-direction: alternate;
-
 }
 
 @keyframes biens12
 {
 from {right: 0px;}
-to {right:420px;}
+to {right:560px;}
 }
 
 .Bienvenue18
 {
-color:#CE33FF;
+color:white;
 font-style: italic;
 position: relative;
 animation-name: biens13;
 animation-duration: 5s; 
 animation-delay: 15s;
 animation-timing-function: ease;
-transition:0,3s;
-animation-iteration-count: infinite;
+animation-iteration-count: 3;
 animation-direction: alternate;
 
 }
@@ -2008,28 +1990,26 @@ animation-direction: alternate;
 @keyframes biens13
 {
 from {right: 0px;}
-to {right:410px;}
+to {right:570px;}
 }
 
 .Bienvenue19
 {
-color:#FF7133;
+color:red;
 font-style: italic;
 position: relative;
 animation-name: biens14;
 animation-duration: 5s; 
 animation-delay: 16s;
 animation-timing-function: ease;
-transition:0,3s;
-animation-iteration-count: infinite;
+animation-iteration-count: 3;
 animation-direction: alternate;
-
 }
 
 @keyframes biens14
 {
 from {right: 0px;}
-to {right:400px;}
+to {right:580px;}
 }
 
 
