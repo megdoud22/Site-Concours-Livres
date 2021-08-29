@@ -24,15 +24,15 @@
 
     <fieldset class="récapitulatif">
     	<legend class="récapitulatif1"><h2>Votre récapitulatif d'information :</h2></legend>
-    	<h2 class="inforation-formulaire">Votre sex:<</h2>
-    	<h2 class="inforation-formulaire">Votre nom:</h2>
-    	<h2 class="inforation-formulaire">Votre prénom:</h2>
-    	<h2 class="inforation-formulaire">Votre date de naissance :</h2>
-    	<h2 class="inforation-formulaire">Votre email:</h2>
-    	<h2 class="inforation-formulaire">Votre numéro de téléphone:</h2>
-    	<h2 class="inforation-formulaire">Votre pays</h2>
-    	<h2 class="inforation-formulaire">Votre statut</h2>
-    	<h2 class="inforation-formulaire">Votre message:</h2>
+    	<h2 class="inforation-formulaire">Votre sex:<?php echo $_POST['Sexe']; ?></h2>
+    	<h2 class="inforation-formulaire">Votre nom:<?php echo $_POST['nom']; ?></h2>
+    	<h2 class="inforation-formulaire">Votre prénom:<?php echo $_POST['prenom']; ?></h2>
+    	<h2 class="inforation-formulaire">Votre date de naissance :<?php echo $_POST['date']; ?></h2>
+    	<h2 class="inforation-formulaire">Votre email::<?php echo $_POST['email']; ?></h2>
+    	<h2 class="inforation-formulaire">Votre pays:<?php echo $_POST['pays']; ?></h2>
+    	<h2 class="inforation-formulaire">Votre numéro de téléphone:<?php echo $_POST['telephone']; ?></h2>
+    	<h2 class="inforation-formulaire">Votre statut:<?php echo $_POST['Statut']; ?></h2>
+    	<h2 class="inforation-formulaire">Votre message:<?php echo $_POST['precisions']; ?></h2>
     </fieldset>
 
 </body>
