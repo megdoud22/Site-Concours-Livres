@@ -11,7 +11,8 @@
 
 <body>
 
-
+        Votre sex:
+         <?php echo $_POST['Sexe']; ?>
 		<br>
 		<br>
 		<br>
