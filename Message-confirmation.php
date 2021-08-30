@@ -12,15 +12,15 @@
 <body>
 
         Votre sex:
-         <?php echo $_POST['Sexe']; ?>
+        <p><?php echo $_POST['nom']; ?></p>
 		<br>
 		<br>
 		<br>
 
-   
+         <?php echo $_POST['prenom']; ?>
 
-   
-    <h1 class="confirmation1">Votre formrulaire à été bien envoyer !</h1>
+    <p>gggggg</p>
+    <h1 class="confirmation1">formrulaire à été bien envoyer !</h1>
     <h2 class="confirmation2">Votre dossier sera traité dans un délai de 21 jours</h2>
 
     <fieldset class="récapitulatif">
