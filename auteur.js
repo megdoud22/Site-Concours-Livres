@@ -2,6 +2,8 @@
 
 
 
+
+
  //click event btn-5
 
 const ModePassSecure = document.querySelector(".passe");
@@ -9,6 +11,8 @@ console.log(ModePassSecure);
 const ModePass = document.querySelector(".groupe");
 console.log(ModePass);
 const btn5 = document.getElementById("btn-5");
+
+
 console.log(btn5);
 const affichage = document.querySelector('h5');
 console.log(affichage);
@@ -28,6 +32,7 @@ affichages.classList.add("message");
 
 
 else if (passWord === "Megdoud.22@1981" && passWord != 10 || passWord === "Fatah.22@1981"  )
+
 
 {
  affichagees.classList.add("message-1");
