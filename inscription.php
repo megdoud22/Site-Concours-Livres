@@ -1,6 +1,7 @@
 
 
 
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -18,7 +19,7 @@
 
    	<div class="block-formulaire">
 
-  	    <form method="post" action="Message-confirmation.html">
+  	    <form method="post" action="Message-confirmation.html" enctype="multipart/form-data">
          
         <fieldset class="fieldset">
  
@@ -62,7 +63,7 @@
 	        </br>
 	        </br>
 	        <label for="telephone">votre numéro de téléphone :</label>
-	        <input type="tel"/>
+	        <input type="tel" name="telephone" />
 	        </br>
 	        </br>
 
@@ -83,19 +84,19 @@
 	          </optgroup>
 
 	          <optgroup label="Afrique">
-		           <option value="france" >Espagne</option>
-		           <option value="espagne"selected>France</option>
-		           <option value="italie">Italie</option>
-		           <option value="royaume-uni">Royaume-Uni</option>
-		           <option value="canada">Canada</option>
+		           <option value="france" >Algerie</option>
+		           <option value="espagne"selected>Maroc</option>
+		           <option value="italie">Tunisie</option>
+		           <option value="royaume-uni">Egypte</option>
+		           <option value="canada">Senegal</option>
 		           <option value="etats-unis">États-Unis</option>
 		           <option value="chine">Chine</option>
 		           <option value="japon">Japon</option>
 	          </optgroup>
 
 	          <optgroup label="Asie">
-		           <option value="france" >Espagne</option>
-		           <option value="espagne"selected>France</option>
+		           <option value="france" >Chine</option>
+		           <option value="espagne"selected>Russie</option>
 		           <option value="italie">Italie</option>
 		           <option value="royaume-uni">Royaume-Uni</option>
 		           <option value="canada">Canada</option>
@@ -132,11 +133,26 @@
         </br>
         </br>
 
+    
+    <label for="Profil"><h2>Quel est votre Statut:</h2></label><br/>   
+    <select name="Statut" id="Statut">
+        <option value="Juré">Juré</option>
+		<option value="Auteur">Auteur</option>
+		<option value="Auteur">Condidat libre pour le statut Juré</option>
+    </select>
+   
+
+     <p>Votre Oeuvre à envoyer en fichier XML important!</p>
+     <input type="file" name="monfichier"/>
+    
+     <br>
+     <br>
+     <br>
     <fieldset class="fieldset">
           
-         <legend class="legendF"><h2>Votre message :</h2></legend> 
-         </br>
-         </br>
+        <legend class="legendF"><h2>Votre message :</h2></legend> 
+        </br>
+        </br>
          <textarea class="textarea" name="precisions" id="precisions" cols="70" rows="10"></textarea>
         </p>
         </br>
@@ -150,9 +166,8 @@
         </br>
        
 
-        
-
-        <button class="button" value="envoyer"><a href="Message-confirmation.html">Envoyer</button>
+       
+    <button class="button" value="envoyer"><a href="Message-confirmation.html"/>Envoyer</button>
         </br>
         </br>
         </br>
