@@ -162,7 +162,7 @@ margin-left:-5px;
 body
 {
 background-image: url(Images/unnamed.jpg);
-animation-name: body ;
+animation-name: body;
 animation-duration: 15s;  
 animation-delay: 2s;
 animation-timing-function: ease;
@@ -174,9 +174,14 @@ animation-direction: alternate;
 
 @keyframes body
 {
-10%{background-image: url(Images/stock-photo-vintage-background-with.jpg);}
-30%{background-image: url(Images/unnamed.jpg);}
-60%{background-image: url(Images/book-flying-.jpg);}
+10%{background-image: url(Images/vintage-background-avec-de-vieux-livres-retour-au-concept-d-école.jpg);}
+20%{background-image: url(Images/bg-livre.jpg);}
+30%{background-image: url(Images/bg-livre-1.jpg);}
+40%{background-image: url(Images/abstract-colours-vector-362849.jpg);}
+50%{background-image: url(Images/Vintage-background-with-old-books.jpg);}
+60%{background-image: url(Images/stock-photo-vintage-background-with.jpg);}
+70%{background-image: url(Images/unnamed.jpg);}
+80%{background-image: url(Images/book-flying-.jpg);}
 90%{background-image: url(Images/images-book.jpg);}
 100%{background-image: url(Images/bg-img.jpg);}
 }
@@ -1312,31 +1317,41 @@ border-left:350px;
 
 
 
+
 .grid-container 
 {
 display: grid;
-grid-template-columns: auto auto auto;
-background-color: #2196F3;
+grid-template-columns: auto auto auto auto;
+grid-gap: 10px;
+background-color: tomato;
 padding: 10px;
+margin-left: 50px;
+font-size: 25px;
 }
 
-.grid-item  
+.grid-container > div 
 {
-background-color: rgba(255, 255, 255, 0.8);
-border: 3px solid rgba(0, 0, 0, 0.8);
-padding: 20px;
-font-size: 30px;
+background-color: #58D68D ;
+border: 3px solid black;
 text-align: center;
+
 }
 
-
-
+.gagnant
+{
+ 
+}
 
 .gagnant-1
 {
 color: white;
 }
 
+.gagnant-2
+{
+
+
+}
 
 .gagnant-3
 {
@@ -1505,24 +1520,7 @@ margin-top:50px;
 .lien
 {
 margin-left:240px;
-margin-top: 10px;
-}
-
-.liens-pass
-{
-margin-left:80px;
-margin-top: -120px;
-background-color:tomato;
-padding: 20px;
-border-radius:30%;
-border-left: 35px white double;
-border-bottom: 6px inset black;
-border-top: 6px inset black;
-border-right:35px white double; 
-color: white;
-text-align: center;
-text-decoration: none;
-font-weight: bold;
+margin-top: -150px;
 }
 
 
@@ -1679,15 +1677,37 @@ background-image: url(Images/fond-blocs-vo.jpg);
 }
 
 
+.FM-3
+{
+background-color:tomato;
+border-radius:30%;
+border-left:35px white double;
+border-right:35px white double;
+height:60px;
+}
 
+.FM-4
+{
+background-color:tomato;
+border-radius:30%;
+border-left:35px white double;
+border-right:35px white double;
+height:30px;
+}
+
+.FM-5
+{
+background:tomato;
+border-radius:30%;
+border-left: 35px white double;
+border-right: 35px white double;
+}
 
 .Bienvenue3
 {
 text-align: center;
 font-size:70px;
 }
-
-
 
 .Bienvenue4
 {
@@ -1703,12 +1723,32 @@ animation-iteration-count: infinite;
 animation-direction: alternate;
 }
 
+
 @keyframes bien
 {
 from {right: 0px;}
 to {right:550px;}
 }
 
+.Bienvenue5
+{
+color: white;
+font-style: italic;
+position: relative;
+animation-name: biens;
+animation-duration: 15s;  
+animation-delay: 3s;
+animation-timing-function: ease;
+transition:15s ;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes bien
+{
+from {right: 0px;}
+to {right:400px;}
+}
 
 .Bienvenue5
 {
@@ -1729,288 +1769,6 @@ animation-direction: alternate;
 from {right: 0px;}
 to {right:400px;}
 }
-
-.Bienvenue6
-{
-color: white;
-font-style: italic;
-position: relative;
-animation-name: biens1;
-animation-duration: 15s;  
-animation-delay: 3s;
-animation-timing-function: ease;
-transition:15s ;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-}
-
-@keyframes biens1
-{
-from {right: 0px;}
-to {right:400px;}
-}
-
-.Bienvenue7
-{
-color: white;
-font-style: italic;
-position: relative;
-animation-name: biens2;
-animation-duration: 15s;  
-animation-delay: 3s;
-animation-timing-function: ease;
-transition:15s ;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-}
-
-@keyframes biens2
-{
-from {right: 0px;}
-to {right:400px;}
-}
-
-.Bienvenue8
-{
-color: white;
-font-style: italic;
-position: relative;
-animation-name: biens3;
-animation-duration: 15s;  
-animation-delay: 3s;
-animation-timing-function: ease;
-transition:15s ;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-}
-
-@keyframes biens3
-{
-from {right: 0px;}
-to {right:400px;}
-}
-
-
-.Bienvenue9
-{
-color: white;
-font-style: italic;
-position: relative;
-animation-name: biens4;
-animation-duration: 15s;  
-animation-delay: 3s;
-animation-timing-function: ease;
-transition:15s ;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-}
-
-@keyframes biens4
-{
-from {right: 0px;}
-to {right:400px;}
-}
-
-.Bienvenue10
-{
-color: white;
-font-style: italic;
-position: relative;
-animation-name: biens5;
-animation-duration: 15s;  
-animation-delay: 3s;
-animation-timing-function: ease;
-transition:15s ;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-}
-
-@keyframes biens5
-{
-from {right: 0px;}
-to {right:400px;}
-}
-
-.Bienvenue11
-{
-color: white;
-font-style: italic;
-position: relative;
-animation-name: biens6;
-animation-duration: 15s;  
-animation-delay: 3s;
-animation-timing-function: ease;
-transition:15s ;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-}
-
-@keyframes biens6
-{
-from {right: 0px;}
-to {right:400px;}
-}
-
-.Bienvenue12
-{
-color: white;
-font-style: italic;
-position: relative;
-animation-name: biens7;
-animation-duration: 15s;  
-animation-delay: 3s;
-animation-timing-function: ease;
-transition:15s ;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-}
-
-@keyframes biens7
-{
-from {right: 0px;}
-to {right:400px;}
-}
-
-.Bienvenue13
-{
-color: white;
-font-style: italic;
-position: relative;
-animation-name: biens8;
-animation-duration: 15s;  
-animation-delay: 3s;
-animation-timing-function: ease;
-transition:15s ;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-}
-
-@keyframes biens8
-{
-from {right: 0px;}
-to {right:400px;}
-}
-
-.Bienvenue14
-{
-color: white;
-font-style: italic;
-position: relative;
-animation-name: biens9;
-animation-duration: 15s;  
-animation-delay: 3s;
-animation-timing-function: ease;
-transition:15s ;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-}
-
-@keyframes biens9
-{
-from {right: 0px;}
-to {right:400px;}
-}
-
-.Bienvenue15
-{
-color: white;
-font-style: italic;
-position: relative;
-animation-name: biens10;
-animation-duration: 15s;  
-animation-delay: 3s;
-animation-timing-function: ease;
-transition:15s ;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-}
-
-@keyframes biens10
-{
-from {right: 0px;}
-to {right:400px;}
-}
-
-.Bienvenue16
-{
-color: white;
-font-style: italic;
-position: relative;
-animation-name: biens11;
-animation-duration: 15s;  
-animation-delay: 3s;
-animation-timing-function: ease;
-transition:15s ;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-}
-
-@keyframes biens11
-{
-from {right: 0px;}
-to {right:400px;}
-}
-
-.Bienvenue17
-{
-color: white;
-font-style: italic;
-position: relative;
-animation-name: biens12;
-animation-duration: 15s;  
-animation-delay: 3s;
-animation-timing-function: ease;
-transition:15s ;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-}
-
-@keyframes biens12
-{
-from {right: 0px;}
-to {right:400px;}
-}
-
-.Bienvenue18
-{
-color: white;
-font-style: italic;
-position: relative;
-animation-name: biens13;
-animation-duration: 15s;  
-animation-delay: 3s;
-animation-timing-function: ease;
-transition:15s ;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-}
-
-@keyframes biens13
-{
-from {right: 0px;}
-to {right:400px;}
-}
-
-.Bienvenue19
-{
-color: white;
-font-style: italic;
-position: relative;
-animation-name: biens14;
-animation-duration: 15s;  
-animation-delay: 3s;
-animation-timing-function: ease;
-transition:15s ;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-}
-
-@keyframes biens14
-{
-from {right: 0px;}
-to {right:400px;}
-}
-
 
 
 
@@ -2240,52 +1998,12 @@ font-weight: bold;
 {
 color: white;
 margin-top: 200px;
-margin-left:30px;
-padding-left:20px;
-border-radius: 30px;
-border-left: double brown 50px;
 text-decoration: underline;
 text-decoration: overline;
 border-bottom: double white 10px;
 border-top: double white 10px ;
 background-color:lightcoral;
-text-align: center;
 }
-
-
-.validation1
-{
-color: white;
-margin-top: 200px;
-margin-left:30px;
-padding-left:20px;
-border-radius: 30px;
-border-left: double brown 50px;
-text-decoration: underline;
-text-decoration: overline;
-border-bottom: double white 10px;
-border-top: double white 10px ;
-background-color:lightcoral;
-text-align: center;
-}
-
-.validation2
-{
-color: white;
-margin-top: 200px;
-margin-left:30px;
-padding-left:20px;
-border-radius: 30px;
-border-left: double brown 50px;
-text-decoration: underline;
-text-decoration: overline;
-border-bottom: double white 10px;
-border-top: double white 10px ;
-background-color:lightcoral;
-text-align: center;
-}
-
-
 
 .juree
 {
@@ -2293,75 +2011,17 @@ text-align: center;
 }
 
 
-.juree1
-{
- display: inline-block;
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
 }
-
-
-.grid-container 
-{
-display: grid;
-grid-template-columns: auto auto;
-background-color: #2196F3;
-padding: 10px;
-}
-
-.grid-item 
-{
-background-color: rgba(255, 255, 255, 0.8);
-border: 1px solid rgba(0, 0, 0, 0.8);
-padding: 20px;
-font-size: 30px;
-text-align:center;
-}
-
-.grid-container1
-{
-display: grid;
-grid-template-columns: auto auto auto;
-background-color: #2196F3;
-padding: 10px;
-}
-.grid-item1 
-{
-background-color: rgba(255, 255, 255, 0.8);
-border: 1px solid rgba(0, 0, 0, 0.8);
-padding: 20px;
-font-size: 30px;
-text-align:center;
-}
-
-
-.grid-container2
-{
-display: grid;
-grid-template-columns: auto auto auto auto auto;
-background-color: #2196F3;
-padding: 10px;
-}
-.grid-item2 
-{
-background-color: rgba(255, 255, 255, 0.8);
-border: 1px solid rgba(0, 0, 0, 0.8);
-padding: 20px;
-font-size: 30px;
-text-align:center;
-}
-
-
-/* Page de message de confirmation */
-
-.confirmation1
-{
-color: white;
-margin-left: 50px;
-}
-
-
-.confirmation2
-{
-color: white;
-display: inline-block;
-margin-left: 50px;
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
