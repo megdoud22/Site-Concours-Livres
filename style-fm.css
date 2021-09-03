@@ -32,6 +32,10 @@ animation-iteration-count: infinite;
 animation-direction: alternate;
 }
 
+.date
+{
+color: white;
+}
 
 
 @keyframes FM
