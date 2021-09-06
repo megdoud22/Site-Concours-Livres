@@ -4,9 +4,16 @@ session_start();
 
 // On s'amuse à créer quelques variables de session dans $_SESSION
 $_SESSION['identifiant'] = 'Megdoud22';
-$_SESSION['prenom'] = 'Fatah';
 $_SESSION['mode_pass'] = "Fatah.22@1981"
+
 ?>
+
+
+    
+    
+
+  
+
 
 <!DOCTYPE html>
 <html>
@@ -87,7 +94,10 @@ $_SESSION['mode_pass'] = "Fatah.22@1981"
     <h2 class="juree">Profil Juré</h2>
 
     <h2>
-       <?php echo "Bonjour" . $_SESSION['identifiant'] . "<br/>" . $_SESSION['prenom'];
+       <?php 
+         if ($_SESSION['identifiant'] === 'Megdoud22' &&  $_SESSION['mode_pass'] === "Fatah.22@1981" ) {
+         echo "Bonjour : " . "<span class='identifiant22'>" . $_SESSION['identifiant'] . "</span>";
+          }
 
        ?>
     </h2>
