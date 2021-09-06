@@ -6,7 +6,6 @@ session_start();
 
 // On s'amuse à créer quelques variables de session dans $_SESSION
 $_SESSION['identifiant'] = 'Megdoud22';
-$_SESSION['prenom'] = 'Fatah';
 $_SESSION['mode_pass'] = "Fatah.22@1981"
 ?>
 
@@ -31,14 +30,7 @@ $_SESSION['mode_pass'] = "Fatah.22@1981"
 
 
 
-<form method="post" action="Admin.php">
-
-    <?php 
-     if ($_SESSION['identifiant'] === 'Megdoud22' && $_SESSION['prenom'] === 'Fatah' && $_SESSION['mode_pass'] === "Fatah.22@1981" ) {
-        echo header('Location: Admin_gestion.php');
-     }
-
-    ?>
+<form method="post" action="Admin_gestion.php">
 
 		  <div class="Auteur">
 			 <fieldset class="fieldset-2">
