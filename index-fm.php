@@ -18,7 +18,7 @@
 
    <div class="logo-5">
        <h1 class="Mon-initial">Bienvenue !</h1>
-       <p>Aujourd'hui nous sommes le <?php echo date('d/m/Y h:i:s'); ?>.</p>
+       <p class="date-22">Aujourd'hui nous sommes le <?php echo date('d/m/Y h:i:s'); ?>.</p>
    </div>
 
     <div class="img-3">
