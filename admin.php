@@ -34,7 +34,7 @@ $_SESSION['mode_pass'] = "Fatah.22@1981"
 <form method="post" action="Admin.php">
 
     <?php 
-     if ($_SESSION['prenom'] === 'Fatah' && $_SESSION['nom'] === 'Megdoud' && $_SESSION['mode_pass'] === "Fatah.22@1981" ) {
+     if ($_SESSION['identifiant'] === 'Megdoud22' && $_SESSION['prenom'] === 'Fatah' && $_SESSION['mode_pass'] === "Fatah.22@1981" ) {
         echo header('Location: Admin_gestion.php');
      }
 

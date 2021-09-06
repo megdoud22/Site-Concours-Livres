@@ -87,8 +87,7 @@ $_SESSION['mode_pass'] = "Fatah.22@1981"
     <h2 class="juree">Profil Juré</h2>
 
     <h2>
-       <?php echo "Bonjour" . $_SESSION['prenom']
-
+       <?php echo "Bonjour" . $_SESSION['identifiant'] . "<br/>" . $_SESSION['prenom'];
 
        ?>
     </h2>
