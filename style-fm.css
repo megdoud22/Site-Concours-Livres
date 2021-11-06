@@ -2369,11 +2369,22 @@ text-align:center;
 }
 
 
+.identifiant2
+{
+ display:inline-block;
+ margin-left: 30px;
+}
+
 
 .identifiant22
 {
- color: black;
+color: black;
+text-decoration: underline;
+font-style: italic;
+border-radius: 30px;
+margin-top:50px;
 }
+
 
 
 /* Page de message de confirmation */

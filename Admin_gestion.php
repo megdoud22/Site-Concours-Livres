@@ -1,18 +1,7 @@
 <?php
 // On démarre la session AVANT d'écrire du code HTML
 session_start();
-
-// On s'amuse à créer quelques variables de session dans $_SESSION
-$_SESSION['identifiant'] = 'Megdoud22';
-$_SESSION['mode_pass'] = "Fatah.22@1981"
-
 ?>
-
-
-    
-    
-
-  
 
 
 <!DOCTYPE html>
@@ -92,21 +81,17 @@ $_SESSION['mode_pass'] = "Fatah.22@1981"
    
 
     <h2 class="juree">Profil Juré</h2>
-
-    <h2>
-       <?php 
-         if ($_SESSION['identifiant'] === 'Megdoud22' &&  $_SESSION['mode_pass'] === "Fatah.22@1981" ) {
-         echo "Bonjour : " . "<span class='identifiant22'>" . $_SESSION['identifiant'] . "</span>";
-          }
-
-       ?>
-    </h2>
-     
+    
+    <div class="identifiant2">
+       <h2>
+      Bienvenue<span class="identifiant22" ><?php echo "//" . $_SESSION['identifiant'] . " //";?> </span>
+       </h2>
+    </div>
 
      <div class="grid-container">
 	   <div class="grid-item">Profil du condidat</div>
 	   <div class="grid-item">2</div>
-	   <div class="grid-item">3</div>  
+	   <div class="grid-item"></div>  
 	   <div class="grid-item">Juré</div>
 	   <div class="grid-item">5</div>
 	   <div class="grid-item">6</div>  
@@ -119,7 +104,7 @@ $_SESSION['mode_pass'] = "Fatah.22@1981"
      </div>
 
 
-   
+ 
 
 
 

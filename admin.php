@@ -4,9 +4,22 @@
 // On démarre la session AVANT d'écrire du code HTML
 session_start();
 
-// On s'amuse à créer quelques variables de session dans $_SESSION
-$_SESSION['identifiant'] = 'Megdoud22';
-$_SESSION['mode_pass'] = "Fatah.22@1981"
+if ($_SERVER['REQUEST_METHOD']==='POST') {
+
+    // On s'amuse à créer quelques variables de session dans $_SESSION
+
+if ($_POST['pseudo'] === 'Megdoud22' &&  $_POST['pass'] === "Fatah.22@1981" ) {
+    $_SESSION['identifiant'] = $_POST['pseudo'];
+    $_SESSION['mode_pass'] = $_POST['pass'];
+    header('location: Admin_gestion.php');
+    exit;
+    } else {
+
+    echo "votre mode passe ou votre identifiant est faux";
+ }
+
+}
+ 
 ?>
 
 <!DOCTYPE html>
@@ -30,7 +43,7 @@ $_SESSION['mode_pass'] = "Fatah.22@1981"
 
 
 
-<form method="post" action="Admin_gestion.php">
+<form method="post" action="Admin.php">
 
 		  <div class="Auteur">
 			 <fieldset class="fieldset-2">
@@ -46,7 +59,7 @@ $_SESSION['mode_pass'] = "Fatah.22@1981"
              <br/>
 			       <br/>
 			       <div class="btn-4-1">
-                   <button id="btn-4">Validez</button>
+                   <input type="submit" name="Valider">
                    </div>
 			       <br/>
 			       <br/>
